@@ -1,0 +1,26 @@
+.phones {
+    /* display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr); */
+    border: 1px solid rgba(44, 70, 5, 0.39);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Phones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+
+.Phones a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+div li::marker {
+    visibility: hidden !important;
+}
